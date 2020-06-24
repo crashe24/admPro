@@ -9,6 +9,7 @@ import { RegisterComponent } from './login/register.component';
 
 //modulos
 import { PagesModule } from './pages/pages.modules';
+import {FormsModule} from '@angular/forms';
 
 
 
@@ -24,6 +25,7 @@ import { PagesModule } from './pages/pages.modules';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     PagesModule,
     AppRoutingModule
   ],

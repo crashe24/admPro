@@ -7,8 +7,9 @@ import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
 
 //modulo para el ngmodule
-import {FormsModule} from '@angular/forms';
+
 import { SharedComponentModule } from '../sharedComponents/sharedComponent.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -16,11 +17,12 @@ import { SharedComponentModule } from '../sharedComponents/sharedComponent.modul
         PagesComponent,
         DashboardComponent,
         ProgressComponent,
-        Graphic1Component
+        Graphic1Component,
+        AccountSettingsComponent
     ],
     imports:[
         SharedComponentModule,
-        FormsModule,
+       // FormsModule,
         SharedModule,
         PAGES_ROUTES
    ],
