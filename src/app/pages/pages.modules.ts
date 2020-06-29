@@ -10,6 +10,7 @@ import { PAGES_ROUTES } from './pages.routes';
 
 import { SharedComponentModule } from '../sharedComponents/sharedComponent.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         DashboardComponent,
         ProgressComponent,
         Graphic1Component,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent
     ],
     imports:[
         SharedComponentModule,

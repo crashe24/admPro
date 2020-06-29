@@ -11,6 +11,7 @@ export class SidebarService {
       { titulo: 'Dashboard', icono:'mdi mdi-gauge', url:'/dashboard'},
       { titulo: 'ProgressBar', icono:'mdi mdi-gauge', url:'/progress'},
       { titulo: 'Graficos', icono:'mdi mdi-gauge', url:'/graficas1'},
+      { titulo: 'promesas', icono:'mdi mdi-gauge', url:'/promesas'},
     ]  
   }
   ];
